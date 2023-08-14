@@ -12,7 +12,6 @@ class NumberGuess {
     static void random() {
         Random random = new Random();
         int randomVal = random.nextInt(100);
-        System.out.println(randomVal);
         Gameplay(randomVal);
     }
 
